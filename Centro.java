@@ -12,6 +12,10 @@ public abstract class Centro {
         this.iscritti = new ArrayList<>();
     }
 
+    void aggiungiCorso(Corso c) {
+        corsi.add(c);
+    }
     void aggiungiIscritto(){
+        iscritti.add(i);
     }
 }
